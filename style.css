@@ -1,0 +1,56 @@
+/* dark blue #102542 */
+/* white #FFFFFF */
+/* yellow #F87060 */
+/* gray #CDD7D6 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;;
+  }
+  
+  body {
+    font-family: 'Playfair Display', serif;
+  }
+
+/* nav */
+nav ul {
+  display: block;
+  justify-content: space-around;
+  list-style-type: none;
+  border: 6px solid #CDD7D6;
+  background-color: #CDD7D6;
+}
+
+nav ul li a {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  padding: 15px 25px;
+  color: #F87060;
+}
+  
+nav ul li a:hover {
+  color: #102542;
+}
+
+.ericaImage {
+  justify-content: space-between;
+  height: 100px;
+  width: 100px;
+}
+
+.name {
+  font-size: 60px;  
+}
+
+@media screen and (min-width:576px){
+
+  nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+}
